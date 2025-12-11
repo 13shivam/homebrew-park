@@ -3,12 +3,12 @@ cask "park" do
 
   on_arm do
     sha256 "2193a0723343f3b010931f1000882e374bbe39ebd280f039392fb7423b0fbadc"
-    url "https://github.com/13shivam/park/releases/download/v#{version}/PARK-#{version}-arm64.dmg"
+    url "https://github.com/13shivam/park/releases/download/#{version}/PARK-#{version}-arm64.dmg"
   end
 
   on_intel do
     sha256 ""
-    url "https://github.com/13shivam/park/releases/download/v#{version}/PARK-#{version}-x64.dmg"
+    url "https://github.com/13shivam/park/releases/download/#{version}/PARK-#{version}-x64.dmg"
   end
 
   name "PARK"
