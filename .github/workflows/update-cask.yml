@@ -31,6 +31,7 @@ jobs:
       - name: Update Cask Formula
         run: |
           VERSION="${{ github.event.inputs.version || github.event.client_payload.version }}"
+          VERSION="${VERSION#v}"  # Strip 'v' prefix
           ARM64_SHA="${{ github.event.inputs.arm64_sha || github.event.client_payload.arm64_sha }}"
           X64_SHA="${{ github.event.inputs.x64_sha || github.event.client_payload.x64_sha }}"
           

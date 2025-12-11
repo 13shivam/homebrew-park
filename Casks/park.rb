@@ -1,14 +1,14 @@
 cask "park" do
-  version "v1.0.0"
+  version "1.0.0"
 
   on_arm do
-    sha256 "2193a0723343f3b010931f1000882e374bbe39ebd280f039392fb7423b0fbadc"
-    url "https://github.com/13shivam/park/releases/download/#{version}/PARK-#{version}-arm64.dmg"
+    sha256 "bf5fd2254dcce493a857dbcd61bcb9fc6863b8150c39cf211aadc1bf7ee77a17"
+    url "https://github.com/13shivam/park/releases/download/v#{version}/PARK-#{version}-arm64.dmg"
   end
 
   on_intel do
-    sha256 ""
-    url "https://github.com/13shivam/park/releases/download/#{version}/PARK-#{version}-x64.dmg"
+    sha256 "f57685783fb7d68075bc8ae6f9fdf807c8b9ccbc6cbc9e99ae540bd35cfa2123"
+    url "https://github.com/13shivam/park/releases/download/v#{version}/PARK-#{version}.dmg"
   end
 
   name "PARK"
@@ -22,7 +22,6 @@ cask "park" do
 
   app "PARK.app"
 
-  binary "#{appdir}/PARK.app/Contents/MacOS/PARK", target: "park"
 
   postflight do
     system_command "xattr",

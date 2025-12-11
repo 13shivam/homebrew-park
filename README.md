@@ -2,6 +2,8 @@
 
 Official Homebrew tap for [PARK](https://github.com/13shivam/park) - Parallel Agent Runtime for Kiro.
 
+![PARK_demo.gif](PARK_demo.gif)
+
 ## Installation
 
 ```bash
