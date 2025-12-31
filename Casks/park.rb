@@ -1,5 +1,5 @@
 cask "park" do
-  version "1.0.1"
+  version "1.0.0"
 
   on_arm do
     sha256 "e28779edc1230466c50cc0973e9fc113fba78b12e54abdac2f76ad9a3d4432fe"
