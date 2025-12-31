@@ -1,13 +1,13 @@
 cask "park" do
-  version "0.0.2"
+  version "1.0.2"
 
   on_arm do
-    sha256 "f5194831ad6fb98003f3b30e65e89f9a7bf5179336df617f3f3efab2a8a731ae"
+    sha256 "af2f523e459f8b2c24512966d01f156b62bae7c9f477ec3e1af06356b513216b"
     url "https://github.com/13shivam/park/releases/download/v#{version}/PARK-#{version}-arm64.dmg"
   end
 
   on_intel do
-    sha256 "62f894cc50716f4bafc3eefafcc762481d672d8bb167e81b902c74810fc31424"
+    sha256 "bea294befe577b1637b5a92c17bf21b56a34ce5f7d9974671e23cd021171679f"
     url "https://github.com/13shivam/park/releases/download/v#{version}/PARK-#{version}.dmg"
   end
 
